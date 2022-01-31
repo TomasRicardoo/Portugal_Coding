@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Portugal Coding</title>
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles-contact.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="apresentacao">
+      <div class="center">
+        <a href="index.html" class="logo">
+          <i class="logomarca"></i>
+        </a>
+        <nav class="menu" id="menu">
+          <ul>
+            <li class="menu__li">
+              <a href="index.html" class="menu__link">Inicio</a>
+            </li>
+            <li class="menu__li">
+              <a href="/index.html/#about" class="menu__link">Cursos</a>
+            </li>
+            <li class="menu__li">
+              <a href="/index.html/#linguagens" class="menu__link"
+                >Linguagens</a
+              >
+            </li>
+            <li class="menu__li">
+              <a href="contact.html" class="menu__link">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>
+
+      <section class="section-top-margin">
+        <div class="center">
+          <header class="p-15">
+            <h2
+              data-aos-offset="400"
+              data-aos-duration="600"
+              data-aos="zoom-in"
+              class="title align-left"
+            >
+              Contacto
+            </h2>
+          </header>
+          <form
+            class="form-contact"
+            action="mailto:tomasricardo.developer@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <div class="col col--5 col--mobile-1">
+              <div class="p-15">
+                <div
+                  data-aos-offset="400"
+                  data-aos-duration="800"
+                  data-aos="fade-right"
+                  class="item-form mb-20"
+                >
+                  <span
+                    data-aos-offset="400"
+                    data-aos-duration="600"
+                    data-aos="zoom-in"
+                    class="input-title"
+                    >Nome completo</span
+                  >
+                  <div class="input-item">
+                    <div class="input-item__box">
+                      <input
+                        type="text"
+                        name="Nome completo"
+                        class="input-item__input"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-aos-offset="400"
+                  data-aos-duration="800"
+                  data-aos="fade-right"
+                  class="item-form mb-20"
+                >
+                  <span class="input-title">Email</span>
+                  <div class="input-item">
+                    <div class="input-item__box">
+                      <input
+                        type="email"
+                        name="Email"
+                        class="input-item__input"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-aos-offset="400"
+                  data-aos-duration="800"
+                  data-aos="fade-right"
+                  class="item-form mb-20"
+                >
+                  <span class="input-title">Emprego</span>
+                  <div class="input-item">
+                    <div class="input-item__box">
+                      <input
+                        type="text"
+                        name="Emprego"
+                        class="input-item__input"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col--5 col--mobile-1">
+              <div class="p-15">
+                <div
+                  data-aos-offset="400"
+                  data-aos-duration="800"
+                  data-aos="fade-left"
+                  class="item-form mb-20"
+                >
+                  <span class="input-title">Mensagem</span>
+                  <div class="input-item">
+                    <div class="input-item__box">
+                      <textarea
+                        name="Mensagem"
+                        rows="8"
+                        cols="80"
+                        class="input-item__textarea"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div
+              data-aos-offset="400"
+              data-aos-duration="800"
+              data-aos="zoom-in"
+              class="tac mt-40"
+            >
+              <button
+                onclick="alerta()"
+                type="submit"
+                class="bt-red mh-160 alerta"
+              >
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="center">
+          <div
+            data-aos-offset="400"
+            data-aos-duration="600"
+            data-aos="zoom-in"
+            class="newsletter__box"
+          >
+            <div class="newsletter__wrapper">
+              <div class="newsletter__content">
+                <span class="newsletter__text"
+                  >Receber emails com<br />novidades</span
+                >
+                <form action="" method="post" class="newsletter__form">
+                  <div class="newsletter__box-input">
+                    <div class="newsletter__input-box">
+                      <input
+                        type="text"
+                        name="O teu email"
+                        value=""
+                        class="newsletter__input"
+                        placeholder="Introduz o teu email"
+                      />
+                    </div>
+                  </div>
+                  <div class="newsletter__box-submit">
+                    <input
+                      class="newsletter__submit"
+                      value=""
+                      type="submit"
+                      name=""
+                    />
+                  </div>
+                </form>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="center">
+          <div class="footer__box">
+            <i class="logomarca"></i>
+          </div>
+
+          <nav class="footer__links">
+            <strong class="footer__titulo">Redes Sociais</strong>
+            <ul>
+              <li class="footer__menu-item">
+                <a
+                  href="https://www.instagram.com/tomas.ricardoo/"
+                  class="footer__link"
+                  >Instagram</a
+                >
+              </li>
+              <li class="footer__menu-item">
+                <a
+                  href="https://mobile.twitter.com/TomsRicardo7"
+                  class="footer__link"
+                  >Twitter</a
+                >
+              </li>
+              <li class="footer__menu-item">
+                <a href="https://github.com/TomasRicardoo" class="footer__link"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer__pages">
+            <strong class="footer__titulo">Informações</strong>
+            <ul>
+              <li class="footer__menu-item">
+                <a href="/contact.html" class="footer__link">Contacto</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/index.html/#about" class="footer__link">Sobre nós</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/index.html/#donos" class="footer__link">Donos</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="clear"></div>
+        </div>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
